@@ -50,11 +50,17 @@ body{
 		content:"";
 		display: block;
 		position: absolute;
-		width: 0;
-		height: 0;
 		border-color: transparent;
 		border-style:solid;
-		border-width: 5px;
+		
 }
-
+.tooltip_top .tooltip_inner:after{
+		width: 0; 
+        height: 0; 
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid black;
+        position: absolute;
+        text-align: center;
+}
 /*END TOOLTIPS*/
