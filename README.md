@@ -1,0 +1,2 @@
+В данном пакете присутствует bower - он обязателен для установки. Необходимо выполнить bower install (bpopup, jquery, normalize.css)
+Также есть gulp(livereload) - установку его необходимости делать нет. - npm install
